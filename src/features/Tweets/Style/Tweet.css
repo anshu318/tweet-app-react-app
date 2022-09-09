@@ -1,0 +1,270 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,700");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 10px;
+  font-family: Raleway, sans-serif;
+}
+
+.user_tweet-txt {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 900;
+  color: #6058a3;
+  cursor: none;
+}
+
+.user_tweet_name {
+  color: #360033;
+  font-family: cursive;
+}
+
+.container_user_tweet {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 35px;
+}
+
+.screen_user_tweet {
+  background: linear-gradient(90deg, white, white);
+  position: relative;
+  height: 600px;
+  width: 700px;
+  box-shadow: 0px 0px 24px #5c5696;
+}
+
+.screen__content_user_tweet {
+  z-index: 1;
+  position: relative;
+  height: 100%;
+}
+
+.screen__background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  -webkit-clip-path: inset(0 0 0 0);
+  clip-path: inset(0 0 0 0);
+}
+
+.user_tweet {
+  width: 100%;
+  padding: 20px;
+  height: 100%;
+}
+
+.user_tweet_edit_wrap {
+  width: 100%;
+  overflow: auto;
+  height: 410px;
+  overflow-x: hidden;
+}
+
+.user_tweet_wrap {
+  width: 100%;
+  overflow: auto;
+  height: 500px;
+  overflow-x: hidden;
+}
+
+.user_tweet_wrap_no_tweet {
+  width: 100%;
+  height: 400px;
+  text-align: center;
+  padding-top: 20%;
+  display: flex;
+  flex-direction: column;
+}
+
+.user_tweet__field {
+  padding: 20px 20px;
+  position: relative;
+  display: flex;
+}
+
+.user_tweet__icon {
+  position: absolute;
+  top: 37px;
+  color: #7875b5;
+}
+
+.user_tweet__icon_delete {
+  color: #7875b5;
+  cursor: pointer;
+}
+
+.user_tweet__icon_delete:hover {
+  color: #39063a;
+  transform: scale(1.2);
+}
+
+.user_tweet__icon_update {
+  cursor: pointer;
+  color: #7875b5;
+}
+
+.user_tweet__icon_update:hover {
+  color: #39063a;
+  transform: scale(1.2);
+}
+
+.user_tweet__input {
+  border: none;
+  border-bottom: 2px solid #d1d1d4;
+  background: none;
+  padding: 10px;
+  padding-left: 24px;
+  font-weight: 700;
+  width: 75%;
+  transition: 0.2s;
+}
+
+.user_tweet__input:active,
+.user_tweet__input:focus,
+.user_tweet__input:hover {
+  outline: none;
+  border-bottom-color: #6a679e;
+}
+
+.user_tweet__submit {
+  background: #fff;
+  font-size: 14px;
+  margin-left: 30px;
+  padding: 16px 20px;
+  border-radius: 26px;
+  border: 1px solid #d4d3e8;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  color: #4c489d;
+  box-shadow: 0px 2px 2px #5c5696;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.user_tweet__submit:active,
+.user_tweet__submit:focus,
+.user_tweet__submit:hover {
+  border-color: #6a679e;
+  outline: none;
+}
+
+.button__icon {
+  font-size: 24px;
+  margin-left: auto;
+  color: #7875b5;
+}
+
+.profile_user_tweet_image {
+  border-radius: 50%;
+  background-color: #ede6e1;
+  height: 3.5rem;
+  width: 3.5rem;
+  border: 2px solid #4c489d;
+}
+
+.user_tweet__icon_profile {
+  position: absolute;
+  left: 4.1%;
+  top: 15%;
+}
+
+.user_tweet__icon_profile_reply {
+  position: absolute;
+  left: 25.8%;
+  top: 17%;
+}
+.user_tweet_data {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1%;
+  margin-top: -1px;
+}
+
+.name {
+  font-size: 1.5rem;
+  color: #3b093f;
+  font-family: cursive;
+}
+
+.no_user_tweet {
+  font-size: 1.5rem;
+  color: #3b093f;
+  font-family: cursive;
+}
+
+.user_tweetname {
+  font-size: 1rem;
+  color: #685ca3;
+  font-family: cursive;
+}
+
+.user_tweetText {
+  font-size: 1.2rem;
+  color: #3b093f;
+  font-family: cursive;
+}
+
+.user_tweet__list {
+  padding: 10px 20px;
+  position: relative;
+  display: flex;
+}
+
+.user_tweet__list_reply {
+  padding: 10px 160px;
+  position: relative;
+  display: flex;
+}
+
+.user_tweet__list_tweetText {
+  padding: 0px 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #685ca3;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(-6deg, #6c63ac, #360033);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(-6deg, #6c63ac, #360033);
+}
+
+.new_icons {
+  padding-top: 1%;
+  display: flex;
+}
+
+.comment {
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.like {
+  cursor: pointer;
+}
+
+.posts {
+  padding-bottom: 2%;
+}

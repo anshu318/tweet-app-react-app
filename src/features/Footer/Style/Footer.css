@@ -1,0 +1,15 @@
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #e2d5cc;
+  color: #3d0d43;
+  text-align: center;
+}
+
+b,
+strong {
+  font-weight: bolder;
+  text-decoration: underline;
+}
