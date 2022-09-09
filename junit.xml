@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="27" failures="0" errors="0" time="10.14">
+  <testsuite name="Tweets Page" errors="0" failures="0" skipped="0" timestamp="2022-09-04T03:48:02" time="2.986" tests="5">
+    <testcase classname="Tweets Page renders correct title" name="Tweets Page renders correct title" time="0.054">
+    </testcase>
+    <testcase classname="Tweets Page renders all icons on textfield" name="Tweets Page renders all icons on textfield" time="0.014">
+    </testcase>
+    <testcase classname="Tweets Page renders all textfield" name="Tweets Page renders all textfield" time="0.016">
+    </testcase>
+    <testcase classname="Tweets Page renders all buttons" name="Tweets Page renders all buttons" time="0.015">
+    </testcase>
+    <testcase classname="Tweets Page renders all background" name="Tweets Page renders all background" time="0.012">
+    </testcase>
+  </testsuite>
+  <testsuite name="Tweets Page" errors="0" failures="0" skipped="0" timestamp="2022-09-04T03:48:05" time="2.503" tests="6">
+    <testcase classname="Tweets Page renders correct title" name="Tweets Page renders correct title" time="0.046">
+    </testcase>
+    <testcase classname="Tweets Page renders user and lock icon" name="Tweets Page renders user and lock icon" time="0.018">
+    </testcase>
+    <testcase classname="Tweets Page renders username and password textfield" name="Tweets Page renders username and password textfield" time="0.026">
+    </testcase>
+    <testcase classname="Tweets Page renders forgot password link" name="Tweets Page renders forgot password link" time="0.016">
+    </testcase>
+    <testcase classname="Tweets Page renders register and login button" name="Tweets Page renders register and login button" time="0.017">
+    </testcase>
+    <testcase classname="Tweets Page renders all background" name="Tweets Page renders all background" time="0.019">
+    </testcase>
+  </testsuite>
+  <testsuite name="App Page" errors="0" failures="0" skipped="0" timestamp="2022-09-04T03:48:02" time="5.664" tests="1">
+    <testcase classname="App Page renders correct header logo" name="App Page renders correct header logo" time="0.089">
+    </testcase>
+  </testsuite>
+  <testsuite name="Tweets Page" errors="0" failures="0" skipped="0" timestamp="2022-09-04T03:48:08" time="0.526" tests="5">
+    <testcase classname="Tweets Page renders correct title" name="Tweets Page renders correct title" time="0.016">
+    </testcase>
+    <testcase classname="Tweets Page renders all icons on textfield" name="Tweets Page renders all icons on textfield" time="0.013">
+    </testcase>
+    <testcase classname="Tweets Page renders all textfield" name="Tweets Page renders all textfield" time="0.014">
+    </testcase>
+    <testcase classname="Tweets Page renders all buttons" name="Tweets Page renders all buttons" time="0.013">
+    </testcase>
+    <testcase classname="Tweets Page renders all background" name="Tweets Page renders all background" time="0.009">
+    </testcase>
+  </testsuite>
+  <testsuite name="Tweets Page" errors="0" failures="0" skipped="0" timestamp="2022-09-04T03:48:08" time="0.576" tests="1">
+    <testcase classname="Tweets Page renders correct title" name="Tweets Page renders correct title" time="0.047">
+    </testcase>
+  </testsuite>
+  <testsuite name="Header Page" errors="0" failures="0" skipped="0" timestamp="2022-09-04T03:48:09" time="0.455" tests="5">
+    <testcase classname="Header Page renders correct header logo" name="Header Page renders correct header logo" time="0.015">
+    </testcase>
+    <testcase classname="Header Page renders correct home tab" name="Header Page renders correct home tab" time="0.01">
+    </testcase>
+    <testcase classname="Header Page renders correct tweet tab" name="Header Page renders correct tweet tab" time="0.011">
+    </testcase>
+    <testcase classname="Header Page renders correct user tab" name="Header Page renders correct user tab" time="0.015">
+    </testcase>
+    <testcase classname="Header Page renders correct log-out tab" name="Header Page renders correct log-out tab" time="0.008">
+    </testcase>
+  </testsuite>
+  <testsuite name="Users Page" errors="0" failures="0" skipped="0" timestamp="2022-09-04T03:48:09" time="0.409" tests="1">
+    <testcase classname="Users Page renders correct title" name="Users Page renders correct title" time="0.017">
+    </testcase>
+  </testsuite>
+  <testsuite name="Error Page" errors="0" failures="0" skipped="0" timestamp="2022-09-04T03:48:10" time="0.402" tests="1">
+    <testcase classname="Error Page renders correct alt" name="Error Page renders correct alt" time="0.036">
+    </testcase>
+  </testsuite>
+  <testsuite name="Home Page" errors="0" failures="0" skipped="0" timestamp="2022-09-04T03:48:08" time="1.913" tests="1">
+    <testcase classname="Home Page renders correct user&apos;s name" name="Home Page renders correct user&apos;s name" time="0.021">
+    </testcase>
+  </testsuite>
+  <testsuite name="Footer Page" errors="0" failures="0" skipped="0" timestamp="2022-09-04T03:48:10" time="0.349" tests="1">
+    <testcase classname="Footer Page renders correct text" name="Footer Page renders correct text" time="0.007">
+    </testcase>
+  </testsuite>
+</testsuites>
